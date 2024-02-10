@@ -60,7 +60,6 @@ const Footer = () => {
           <div className=" flex flex-col items-end justify-between ">
             <div className="cursor-pointer w-[40px] h-[40px] sm:my-4 flex items-center justify-center">
               <a href="#home">
-                {" "}
                 <img
                   src={toTop}
                   alt={toTop}
