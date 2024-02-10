@@ -1,6 +1,7 @@
 import React from "react";
 import landpage from "../../assets/landpage.jpeg";
 import Navbar from "../../components/Navbar";
+import { motion } from "framer-motion";
 
 import Buttons from "../../components/Buttons";
 import Label from "../../components/Label";
@@ -10,7 +11,12 @@ const Home = () => {
       <main className="relative z-0 w-full h-screen  overflow-hidden  ">
         <div className="absolute max-container h-full z-30 w-full opacity-95 flex flex-col">
           <Navbar />
-          <div className="flex flex-col items-center justify-center  h-full ">
+          <motion.div
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="flex flex-col items-center justify-center  h-full "
+          >
             <Label content={"DELIGHTFUL EXPERIENCE"} />
             <h1 className="text-[110px] text-gold font-[forum]  leading-[108px] my-[2%] text-center">
               Elevate Your <br /> Taste Experience
@@ -19,7 +25,7 @@ const Home = () => {
               Crafting Culinary Memories, One Bite at a Time
             </h5>
             <Buttons content={"View Our Menu"} />
-          </div>
+          </motion.div>
         </div>
 
         <img

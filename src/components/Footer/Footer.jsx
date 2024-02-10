@@ -1,5 +1,6 @@
 import React from "react";
 import footerLogo from "../../assets/footer-logo.png";
+import toTop from "../../assets/to-top.png";
 const Footer = () => {
   return (
     <div className="px-[168px] h-[275px] font-[forum] text-[#D4D5D9] ">
@@ -34,9 +35,40 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-end justify-start"></div>
-          <div className="">3</div>
-          <div className="">3</div>
+          <div className="flex items-start justify-end flex-col">
+            <div className="my-3">
+              <h4 className="text-gold text-sm">CONTACT US</h4>
+              <span>+1 999 888-76-54</span>
+            </div>
+            <div>
+              <h4 className="text-gold text-sm">EMAIL</h4>
+              <span>yukongold@gmail.com</span>
+            </div>
+          </div>
+          <div className="flex items-start justify-end flex-col ">
+            <div className="my-3">
+              <h4 className="text-gold text-sm"> ADDRESS</h4>
+              <span className="text-sm">
+                2118 Thornridge Cir. Syracuse, Connecticut 35624
+              </span>
+            </div>
+            <div>
+              <h4 className="text-gold text-sm">OPENIG HOURS</h4>
+              <span>9am--6pm</span>
+            </div>
+          </div>
+          <div className=" flex flex-col items-end justify-between">
+            <div className="cursor-pointer w-[40px] h-[40px] flex items-center justify-center">
+              <img
+                src={toTop}
+                alt={toTop}
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <div>
+              <h6 className="text-sm opacity-45">© 2023 — Copyright</h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
