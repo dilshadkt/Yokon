@@ -3,7 +3,7 @@ import footerLogo from "../../assets/footer-logo.png";
 import toTop from "../../assets/to-top.png";
 const Footer = () => {
   return (
-    <div className="px-[168px] h-[275px] sm:h-full font-[forum] text-primary sm:p-5">
+    <div className="px-[14%] h-[275px] sm:h-full font-[forum] text-primary sm:p-5">
       <div className=" p-4 flex items-center justify-center h-full sm:p-0">
         <div className=" w-full h-full grid grid-cols-4 sm:grid-cols-1 gap-[32px] p-4">
           <div className="flex flex-col justify-between ">

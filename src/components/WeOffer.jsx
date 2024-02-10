@@ -12,7 +12,7 @@ const WeOffer = () => {
       <h3 className="font-[forum] text-white sm:text-center text-[56px] my-2">
         We Offer Top Notch
       </h3>
-      <div className=" w-[68%] sm:w-full sm:px-5 flex sm:flex-col  font-[forum] ">
+      <div className=" w-[68%] sm:w-full lg:w-[80%] sm:px-5 flex sm:flex-col  font-[forum] ">
         <div className="flex-1  ">
           <OfferCards image={burger} title={"Burgers"} />
         </div>
