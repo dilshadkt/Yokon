@@ -45,7 +45,7 @@ const Menu = () => {
             <MenuCard />
             <MenuCard />
           </div>
-          <div className="flex-initial bg-gold opacity-30 w-[1px] mx-[25px]"></div>
+          <div className="flex-initial bg-gold opacity-30 w-[1px] sm:w-full sm:h-[1px] mx-[25px]"></div>
           <div className="flex-1   ">
             <MenuCard />
             <MenuCard />

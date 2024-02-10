@@ -8,7 +8,10 @@ import Label from "../../components/Label";
 const Home = () => {
   return (
     <div>
-      <main className="relative z-0 w-full h-screen  overflow-hidden  ">
+      <main
+        id="home"
+        className="relative z-0 w-full h-screen  overflow-hidden  "
+      >
         <div className="absolute max-container h-full z-30 w-full opacity-95 flex flex-col">
           <Navbar />
           <motion.div

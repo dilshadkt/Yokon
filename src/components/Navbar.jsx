@@ -20,7 +20,7 @@ const Navbar = () => {
           <li className="px-5 lg:px-2 cursor-pointer"> Blog</li>
         </ul>
       </div>
-      <div>
+      <div className="md:hidden">
         <Buttons content={"Contact Us"} />
       </div>
     </nav>

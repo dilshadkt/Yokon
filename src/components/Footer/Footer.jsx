@@ -59,11 +59,14 @@ const Footer = () => {
           </div>
           <div className=" flex flex-col items-end justify-between ">
             <div className="cursor-pointer w-[40px] h-[40px] sm:my-4 flex items-center justify-center">
-              <img
-                src={toTop}
-                alt={toTop}
-                className="w-full h-full object-contain"
-              />
+              <a href="#home">
+                {" "}
+                <img
+                  src={toTop}
+                  alt={toTop}
+                  className="w-full h-full object-contain"
+                />
+              </a>
             </div>
             <div>
               <h6 className="text-sm opacity-45">© 2023 — Copyright</h6>
