@@ -5,10 +5,10 @@ import { data } from "../assets/whychooses/data";
 
 const WhychooseUs = () => {
   return (
-    <div className="h-screen flex items-center justify-center flex-col w-full px-[18%]">
+    <div className="h-screen sm:h-full flex items-center justify-center flex-col w-full px-[18%] sm:p-5">
       <Label content={"WHT CHOOSE US"} />
       <h4 className="sub-head my-[25px]">Our Strenght</h4>
-      <div className="w-full  grid grid-cols-4 gap-[15px] my-[9%]">
+      <div className="w-full  grid grid-cols-4 gap-[15px] my-[9%] sm:grid-cols-1">
         {data.map((item, index) => (
           <WhychooseCard
             image={item.image}

@@ -3,11 +3,11 @@ import footerLogo from "../../assets/footer-logo.png";
 import toTop from "../../assets/to-top.png";
 const Footer = () => {
   return (
-    <div className="px-[168px] h-[275px] font-[forum] text-primary ">
-      <div className=" p-4 flex items-center justify-center h-full">
-        <div className=" w-full h-full grid grid-cols-4 gap-[32px] p-4">
+    <div className="px-[168px] h-[275px] sm:h-full font-[forum] text-primary sm:p-5">
+      <div className=" p-4 flex items-center justify-center h-full sm:p-0">
+        <div className=" w-full h-full grid grid-cols-4 sm:grid-cols-1 gap-[32px] p-4">
           <div className="flex flex-col justify-between ">
-            <div className="w-[125px] h-[37px]">
+            <div className="w-[125px]  h-[37px]">
               <img
                 src={footerLogo}
                 alt={footerLogo}
@@ -57,8 +57,8 @@ const Footer = () => {
               <span>9am--6pm</span>
             </div>
           </div>
-          <div className=" flex flex-col items-end justify-between">
-            <div className="cursor-pointer w-[40px] h-[40px] flex items-center justify-center">
+          <div className=" flex flex-col items-end justify-between ">
+            <div className="cursor-pointer w-[40px] h-[40px] sm:my-4 flex items-center justify-center">
               <img
                 src={toTop}
                 alt={toTop}

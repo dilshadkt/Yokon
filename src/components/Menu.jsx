@@ -6,35 +6,35 @@ import MenuCard from "./MenuCard";
 import Buttons from "../components/Buttons";
 const Menu = () => {
   return (
-    <div className="flex items-center justify-center flex-col">
+    <div className="flex items-center justify-center flex-col p-5">
       <Label content={"SPECIAL SELECTION"} />
       <div className="my-3">
         <h3 className="sub-head">Delicious Menu</h3>
       </div>
-      <div className="  w-[68%] flex justify-center  flex-col my-4">
+      <div className="  w-[68%] sm:w-full flex justify-center  flex-col my-4">
         <hr className="w-full border-[1px] border-gold opacity-40" />
         <div className="flex items-center justify-center my-3">
-          <ul className="flex text-white items-center font-light font-[forum]">
-            <li className="mx-8">
-              <h4 className="text-[22px]">BURGER</h4>
+          <ul className="flex text-white items-center text-[22px] sm:text-[13px] font-light font-[forum]">
+            <li className="mx-8 sm:mx-1">
+              <h4 className="">BURGER</h4>
             </li>
-            <li className="mx-8">
+            <li className="mx-8 sm:mx-1">
               <img src={miniStar} alt={miniStar} />
             </li>
-            <li className="mx-8">
-              <h4 className="text-[22px]">FRIES</h4>
+            <li className="mx-8 sm:mx-1">
+              <h4 className="">FRIES</h4>
             </li>
-            <li className="mx-8">
+            <li className="mx-8 sm:mx-1">
               <img src={miniStar} alt={miniStar} />
             </li>
-            <li className="mx-8">
-              <h4 className="text-[22px]">COFFEE</h4>
+            <li className="mx-8 sm:mx-1">
+              <h4 className="">COFFEE</h4>
             </li>
-            <li className="mx-8">
+            <li className="mx-8 sm:mx-1">
               <img src={miniStar} alt={miniStar} />
             </li>
-            <li className="mx-8">
-              <h4 className="text-[22px]">JUICES</h4>
+            <li className="mx-8 sm:mx-1">
+              <h4 className="">JUICES</h4>
             </li>
           </ul>
         </div>

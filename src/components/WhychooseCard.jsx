@@ -11,7 +11,7 @@ const WhychooseCard = ({ image, title, description, index }) => {
         <img src={image} alt={image} />
       </div>
       <h4 className="my-[10px] text-[23px]">{title}</h4>
-      <p className="text-[14px] font-light leading-[18px]  opacity-65   text-center">
+      <p className="text-[14px] font-light leading-[18px]  opacity-65  sm:w-[60%]  text-center">
         {description}
       </p>
     </div>

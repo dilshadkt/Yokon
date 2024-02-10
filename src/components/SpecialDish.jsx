@@ -5,13 +5,13 @@ import Buttons from "./Buttons";
 
 const SpecialDish = () => {
   return (
-    <div className="flex h-screen w-full">
+    <div className="flex h-screen sm:h-full w-full sm:flex-col">
       <div className="flex-1 flex items-center justify-center">
         <img src={special_dish} alt={special_dish} />
       </div>
-      <div className="flex-1 flex items-center justify-start      ">
-        <div className="h-[55%] w-[52%]  ml-[14%]">
-          <div className="flex flex-col items-start justify-center">
+      <div className="flex-1 flex items-center justify-start  sm:justify-center   sm:py-[10%]  ">
+        <div className="h-[55%] w-[52%] sm:w-full sm:h-full  ml-[14%] sm:ml-0">
+          <div className="flex flex-col items-start justify-cente sm:items-center">
             <Label content={"SPECIAL DISH"} />
             <h3 className="sub-head ">Yukon Fries</h3>
             <p className="text-left w-[83%] opacity-[60%] text-white font-light my-2">

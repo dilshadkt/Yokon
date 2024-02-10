@@ -3,7 +3,7 @@ import burger from "../assets/menu/burger.png";
 
 const MenuCard = () => {
   return (
-    <div className="w-full  text-white  my-[20px]    h-[97px] flex ">
+    <div className="w-full  text-white  my-[20px]   sm:my-[10%]  h-[97px] flex ">
       <div className="flex-initial w-[90px]">
         <img src={burger} alt={burger} />
       </div>
@@ -15,7 +15,7 @@ const MenuCard = () => {
           <hr className="bg-red-200 w-full ml-3 opacity-[0.3]" />
         </div>
         <div>
-          <p className="text-[13px] font-light leading-[18px]  opacity-65">
+          <p className="text-[13px] font-light leading-[18px]  sm:text-justify opacity-65">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
