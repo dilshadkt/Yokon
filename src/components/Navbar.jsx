@@ -56,11 +56,6 @@ const Navbar = () => {
           </svg>
         </label>
       </div>
-      <div
-        className={`absolute top-0 right-0 w-[80%] opacity-0 h-screen bg-white ${
-          isSidePanelOpen && `opacity-100`
-        } `}
-      ></div>
     </nav>
   );
 };
