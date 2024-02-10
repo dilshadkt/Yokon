@@ -10,7 +10,7 @@ const SpecialDish = () => {
         <img src={special_dish} alt={special_dish} />
       </div>
       <div className="flex-1 flex items-center justify-start  sm:justify-center   sm:py-[10%]  ">
-        <div className="h-[55%] w-[52%] sm:w-full sm:h-full  ml-[14%] sm:ml-0">
+        <div className="h-[55%] w-[52%] lg:w-[70%] sm:w-full sm:h-full  ml-[14%] sm:ml-0">
           <div className="flex flex-col items-start justify-cente sm:items-center">
             <Label content={"SPECIAL DISH"} />
             <h3 className="sub-head ">Yukon Fries</h3>

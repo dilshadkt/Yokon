@@ -11,7 +11,7 @@ const Menu = () => {
       <div className="my-3">
         <h3 className="sub-head">Delicious Menu</h3>
       </div>
-      <div className="  w-[68%] sm:w-full flex justify-center  flex-col my-4">
+      <div className="  w-[68%] lg:w-[80%] sm:w-full flex justify-center  flex-col my-4">
         <hr className="w-full border-[1px] border-gold opacity-40" />
         <div className="flex items-center justify-center my-3">
           <ul className="flex text-white items-center text-[22px] sm:text-[13px] font-light font-[forum]">
