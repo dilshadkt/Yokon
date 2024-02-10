@@ -39,7 +39,7 @@ const Menu = () => {
           </ul>
         </div>
         <hr className="w-full border-[1px] border-gold opacity-40" />
-        <div className="w-full  py-[25px] flex">
+        <div className="w-full  py-[25px] flex md:flex-col">
           <div className="flex-1  ">
             <MenuCard />
             <MenuCard />

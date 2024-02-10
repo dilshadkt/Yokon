@@ -18,10 +18,10 @@ const Home = () => {
             className="flex flex-col items-center justify-center  h-full "
           >
             <Label content={"DELIGHTFUL EXPERIENCE"} />
-            <h1 className="text-[110px] text-gold font-[forum]  leading-[108px] my-[2%] text-center">
+            <h1 className="text-[110px] sm:text-[50px] text-gold font-[forum]  leading-[108px] sm:leading-[60px] my-[2%] text-center">
               Elevate Your <br /> Taste Experience
             </h1>
-            <h5 className="text-primary text-[16px] font-[Inter] mb-6">
+            <h5 className="text-primary text-[16px] font-[Inter] mb-6 sm:text-[13px]">
               Crafting Culinary Memories, One Bite at a Time
             </h5>
             <Buttons content={"View Our Menu"} />
