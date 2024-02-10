@@ -28,8 +28,8 @@ const Navbar = () => {
       </div>
       <div>
         <label
-          onClick={() => setISidePanelOpen(!isSidePanelOpen)}
-          className="btn btn-circle swap swap-rotate z-50"
+          onClick={() => setISidePanelOpen(!false)}
+          className="btn btn-circle swap swap-rotate z-50 hidden sm:visible"
         >
           {/* this hidden checkbox controls the state */}
           <input type="checkbox" />
