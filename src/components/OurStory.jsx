@@ -2,6 +2,7 @@ import React from "react";
 import ourStory from "../assets/outstory.png";
 import Label from "../components/Label";
 import Buttons from "../components/Buttons";
+
 const OurStory = () => {
   return (
     <div className="flex items-center justify-center h-screen px-[5%]">
@@ -9,6 +10,7 @@ const OurStory = () => {
         <div className="flex-initial w-[45%]  flex items-start  justify-end">
           <div className=" flex flex-col items-center w-[60%] my-[6%]">
             <Label content={"OUR STORY"} />
+
             <h3 className="font-[forum] text-white text-[55px] text-center leading-[52px] my-4">
               Every Flavor <br /> Tells a Story
             </h3>
